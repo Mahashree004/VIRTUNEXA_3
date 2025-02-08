@@ -1,27 +1,30 @@
-# React Router Example: Navigation Component
+# 📌 Cloud-Based Document Collaboration Tool
 
-This project demonstrates the use of React Router to create a simple navigation system in a React application. The app includes two routes: `Home` and `History`, with a `Navigation` component to switch between them.
-
----
-
-## Features
-
-- **React Router DOM**: Enables navigation between different pages without refreshing.
-- **Dynamic Navigation**: A reusable `Navigation` component using `<Link>` from React Router.
-- **Simple UI**: Easy-to-understand implementation with two sample pages.
+A real-time document collaboration tool with features like **live editing, document version history, and user authentication**. Built using **React, Firebase, and React Router**.
 
 ---
 
-## Installation
+## 🚀 Features
 
-Follow the steps below to set up and run the project:
+- ✅ **Real-Time Collaboration** – Multiple users can edit documents simultaneously.  
+- ✅ **Document Version History** – Track and restore previous versions of a document.  
+- ✅ **User Authentication** – Secure login and registration using Firebase.  
+- ✅ **Cloud Storage** – Store documents in Firestore for accessibility from anywhere.  
+- ✅ **Intuitive UI** – A clean and simple user interface for easy collaboration.  
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) installed
-- Basic understanding of React
+---
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/react-router-navigation.git
-   cd react-router-navigation
+## 🛠️ Tech Stack
+
+- **Frontend**: React, React Quill (for rich text editing)  
+- **Backend**: Firebase Firestore (for real-time database)  
+- **Authentication**: Firebase Auth  
+- **Routing**: React Router  
+
+---
+
+## 📥 Installation and Setup
+
+### **Prerequisites**
+- [Node.js](https://nodejs.org/) installed  
+- Firebase project set up (with Firestore and Authentication enabled)  
