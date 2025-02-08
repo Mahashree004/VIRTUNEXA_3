@@ -1,8 +1,27 @@
-# React + Vite
+# React Router Example: Navigation Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates the use of React Router to create a simple navigation system in a React application. The app includes two routes: `Home` and `History`, with a `Navigation` component to switch between them.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **React Router DOM**: Enables navigation between different pages without refreshing.
+- **Dynamic Navigation**: A reusable `Navigation` component using `<Link>` from React Router.
+- **Simple UI**: Easy-to-understand implementation with two sample pages.
+
+---
+
+## Installation
+
+Follow the steps below to set up and run the project:
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed
+- Basic understanding of React
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/react-router-navigation.git
+   cd react-router-navigation
